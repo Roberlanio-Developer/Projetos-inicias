@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #084177,#687466,#cd8,#fbc490,rgb(255, 0, 0));
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+}
+
+@keyframes colors{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+
+
+.logo{
+    width: 80px;
+    margin: 20px;
+    
+}
+main{
+ 
+    max-width: 786px;
+    margin: 0 auto;
+}
+h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.caixa{
+    margin-top: 40px;
+    text-align: center;
+}
+#lista{
+    list-style: none;
+
+    }
+    #lista > li{
+        background-color: #dbdbdb;
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        text-align: left;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
+
+    
+    #valor{
+        background-color: #f1f1ff;
+        border:3px solid #32cdac;
+        padding: 4px;  
+        width: 80%;
+        height: 40px;
+        outline: none;
+        font-size: 14px;
+        color: #0f1726;
+        border-radius: 4px;
+        margin-top: 30px;
+    }
+    .botao{
+        background-color: #f1f1ff;
+        border:3px solid #32cdac;
+        padding: 4px;  
+        width: 18.7%;
+        height: 40px;
+        outline: none;
+        font-size: 13px;
+        color: #0f1726;
+        border-radius: 4px;
+        margin-top: 30px;
+        background: linear-gradient(45deg, #084177,#687466,#cd8,#fbc490,rgb(255, 0, 0));
+        background-size: 300% 300%;
+        animation: colors 10s ease infinite;
+    }
+    
+    @keyframes colors{
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    .btDolar{
+        background-color: #f1f1ff;
+        border:3px solid #32cdac;
+        padding: 4px;  
+        width: 18.7%;
+        height: none;
+        outline: none;
+        font-size: 13px;
+        color: #0f1726;
+        border-radius: 4px;
+        margin-top: none;
+        background: linear-gradient(45deg, #084177,#687466,#cd8,#fbc490,rgb(255, 0, 0));
+        background-size: 300% 300%;
+        animation: colors 10s ease infinite;
+    }
+    
+    @keyframes colors{
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    .btEuro{
+        background-color: #f1f1ff;
+        border:3px solid #32cdac;
+        padding: 4px;  
+        width: 18.7%;
+        height: none;
+        outline: none;
+        font-size: 13px;
+        color: #0f1726;
+        border-radius: 4px;
+        margin-top: none;
+        background: linear-gradient(45deg, #084177,#687466,#cd8,#fbc490,rgb(255, 0, 0));
+        background-size: 300% 300%;
+        animation: colors 10s ease infinite;
+    }
+    
+    @keyframes colors{
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    .btReal{
+        background-color: #f1f1ff;
+        border:3px solid #32cdac;
+        padding: 4px;  
+        width: 18.7%;
+        height: none;
+        outline: none;
+        font-size: 13px;
+        color: #0f1726;
+        border-radius: 4px;
+        margin-top: none;
+        background: linear-gradient(45deg, #084177,#687466,#cd8,#fbc490,rgb(255, 0, 0));
+        background-size: 300% 300%;
+        animation: colors 10s ease infinite;
+    }
+    
+    @keyframes colors{
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    .bt-azul{
+        background-color: #f1f1ff;
+        border:3px solid #32cdac;
+        padding: 4px;  
+        width: 100%;
+        height: 40px;
+        outline: none;
+        font-size: 14px;
+        color: #0f1726;
+        border-radius: 4px;
+        margin-top: 30px;
+        background: linear-gradient(45deg, #084177,#687466,#cd8,#fbc490,rgb(255, 0, 0));
+        background-size: 300% 300%;
+        animation: colors 10s ease infinite;
+    }
+    
+    @keyframes colors{
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    
+        100%{
+            background-position: 0% 50%;
+        }
+        
+    }
